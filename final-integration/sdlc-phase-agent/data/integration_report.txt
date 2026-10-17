@@ -1,0 +1,30 @@
+Integration test report - 2026-10-17T15:16:22
+Model: openai/gpt-oss-20b  Base URL: https://api.groq.com/openai/v1
+Result: 26/26 checks passed
+
+[PASS] Request accepted and sanitized - #1
+[PASS] Rejects too short input - Description must be 10-500 characters after cleanup (got 2).
+[PASS] Rejects too long input - Input is too long (3000 characters; limit is 500).
+[PASS] Rejects injection input - Description looks like an instruction to the AI rather than 
+[PASS] Observe collected request facts
+[PASS] Reason produced steps - Request has 16 words. | Phase detector chose 'requirements' with high confidence (90%).
+[PASS] Act produced advice - Clarify scope with the client: who uses it, acceptance criteria, and priority.
+[PASS] Phase is 'requirements' - got requirements (90%)
+[PASS] Structured LLM output
+[PASS] Artifact file created - artifacts/customer-portal/requirements/request-1.md
+[PASS] Uses requirements template
+[PASS] LLM content generated
+[PASS] Request details filled in
+[PASS] Artifact in organized folder - artifacts/customer-portal/requirements/
+[PASS] Request persisted with phase
+[PASS] Interaction logged
+[PASS] Log has phase, timing, artifact - 1664 ms
+[PASS] Responds in reasonable time - 1.7s
+[PASS] 'Add user login to website' - expected requirements, got requirements
+[PASS] 'Design the database schema for product reviews' - expected design, got design
+[PASS] 'Fix the bug where the rating stars do not save' - expected implementation, got implementation
+[PASS] 'Test payment system' - expected testing, got testing
+[PASS] 'Deploy the feedback service to production' - expected deployment, got deployment
+[PASS] All phases detected and documented - 5/5
+[PASS] Follow-up uses memory
+[PASS] Statistics available - 6 interactions, 100% success

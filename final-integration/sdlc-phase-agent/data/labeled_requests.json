@@ -1,0 +1,22 @@
+[
+  {"description": "Add user login to website", "phase": "requirements"},
+  {"description": "Create a customer feedback system that allows users to submit ratings and comments about our products", "phase": "requirements"},
+  {"description": "Our sales team wants a dashboard to track monthly revenue", "phase": "requirements"},
+  {"description": "Users would like to reset their password by SMS", "phase": "requirements"},
+  {"description": "Design the database schema for the inventory system", "phase": "design"},
+  {"description": "Create UI mockups for the mobile onboarding flow", "phase": "design"},
+  {"description": "Define the architecture for splitting the monolith into microservices", "phase": "design"},
+  {"description": "Draft the API contract between the billing and orders services", "phase": "design"},
+  {"description": "Implement the search endpoint using Elasticsearch", "phase": "implementation"},
+  {"description": "Fix the bug where emails are sent twice after checkout", "phase": "implementation"},
+  {"description": "Refactor the payment service to use async calls", "phase": "implementation"},
+  {"description": "Code the shopping cart discount calculation", "phase": "implementation"},
+  {"description": "Test payment system", "phase": "testing"},
+  {"description": "Write integration tests for the order API", "phase": "testing"},
+  {"description": "Run a security penetration test on the login page", "phase": "testing"},
+  {"description": "Perform user acceptance testing with the finance team", "phase": "testing"},
+  {"description": "Deploy the app to production servers", "phase": "deployment"},
+  {"description": "Set up automatic rollback if the release health check fails", "phase": "deployment"},
+  {"description": "Move the application from on-premise servers to AWS", "phase": "deployment"},
+  {"description": "Configure monitoring and alerts for the production cluster", "phase": "deployment"}
+]

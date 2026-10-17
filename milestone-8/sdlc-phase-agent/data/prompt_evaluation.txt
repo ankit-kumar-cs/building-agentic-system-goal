@@ -1,0 +1,35 @@
+Prompt evaluation
+============================================================
+metric                                legacy    improved
+Accuracy                                 95%        100%
+Structured output rate                  100%        100%
+Avg confidence when correct              95%         93%
+Avg confidence when wrong                90%          0%
+
+Mistakes (legacy):
+  deployment -> requirements: 1
+
+Mistakes (improved):
+  none
+
+Per-request results (expected | legacy | improved):
+  Add user login to website                               | requirements   | requirements (0.95)    | requirements (0.90)
+  Create a customer feedback system that allows users to  | requirements   | requirements (0.95)    | requirements (0.90)
+  Our sales team wants a dashboard to track monthly reven | requirements   | requirements (0.95)    | requirements (0.90)
+  Users would like to reset their password by SMS         | requirements   | requirements (0.95)    | requirements (0.90)
+  Design the database schema for the inventory system     | design         | design (1.00)          | design (0.90)
+  Create UI mockups for the mobile onboarding flow        | design         | design (1.00)          | design (0.90)
+  Define the architecture for splitting the monolith into | design         | design (0.95)          | design (0.95)
+  Draft the API contract between the billing and orders s | design         | design (0.95)          | design (0.90)
+  Implement the search endpoint using Elasticsearch       | implementation | implementation (0.95)  | implementation (0.90)
+  Fix the bug where emails are sent twice after checkout  | implementation | implementation (0.95)  | implementation (0.95)
+  Refactor the payment service to use async calls         | implementation | implementation (0.95)  | implementation (0.95)
+  Code the shopping cart discount calculation             | implementation | implementation (1.00)  | implementation (0.95)
+  Test payment system                                     | testing        | testing (0.95)         | testing (0.95)
+  Write integration tests for the order API               | testing        | testing (0.95)         | testing (0.95)
+  Run a security penetration test on the login page       | testing        | testing (0.95)         | testing (0.95)
+  Perform user acceptance testing with the finance team   | testing        | testing (0.95)         | testing (0.95)
+  Deploy the app to production servers                    | deployment     | deployment (0.99)      | deployment (0.95)
+  Set up automatic rollback if the release health check f | deployment     | requirements (0.90)    | deployment (0.95)
+  Move the application from on-premise servers to AWS     | deployment     | deployment (0.90)      | deployment (0.95)
+  Configure monitoring and alerts for the production clus | deployment     | deployment (0.80)      | deployment (0.95)

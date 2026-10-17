@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "description": "Add user login to website",
+    "client": "Acme",
+    "project": "Website",
+    "timestamp": "2026-10-10T15:53:07",
+    "phase": "requirements",
+    "confidence": 0.9
+  },
+  {
+    "id": 2,
+    "description": "Create customer database",
+    "client": "Acme",
+    "project": "CRM",
+    "timestamp": "2026-10-10T15:53:07",
+    "phase": "implementation",
+    "confidence": 0.8
+  },
+  {
+    "id": 3,
+    "description": "Test payment system",
+    "client": "Beta",
+    "project": "Shop",
+    "timestamp": "2026-10-10T15:53:07",
+    "phase": "testing",
+    "confidence": 0.95
+  },
+  {
+    "id": 4,
+    "description": "Build User Page UI",
+    "client": "Calvin",
+    "project": "ECommerce",
+    "timestamp": "2026-10-10T15:53:07",
+    "phase": "implementation",
+    "confidence": 0.95
+  }
+]
